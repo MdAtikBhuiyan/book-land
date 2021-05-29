@@ -1,0 +1,49 @@
+/* header top */
+.header-logo img{
+    height: 55px;
+    width: 150px;
+    object-fit: cover;
+}
+.cart-area svg{
+    font-size: 28px;
+}
+.header-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sign-in-area .btn{
+    border: 1px solid black;
+}
+.sign-in-area .btn:hover,
+.sign-in-area .btn:focus{
+    background-color: #33c24d;
+    border: 1px solid #33c24d;
+    outline: 0;
+    box-shadow: 0;
+    color: white;
+}
+/* header navbar */
+.header-navbar li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.btn.simillar-btn{
+    background-color: #0498D4;
+    color: white;
+    padding: 6px 16px;
+}
+/* banner-area */
+.banner-area img {
+    height: 350px;
+    object-fit: cover;
+}
+.carousel .control-dots .dot{
+    background-color: #fff;
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+}
+.carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover{
+    background-color: #0498D4;
+}
